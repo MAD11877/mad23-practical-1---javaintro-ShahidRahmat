@@ -25,15 +25,15 @@ public class Question5
      *     2
      * Hint: Use a loop to get input. Use another 2 loops to find the mode
      */
-    System.out.print("Enter a number: ");
+    //System.out.print("Enter a number: ");
     Scanner in = new Scanner(System.in);
     int numinput = in.nextInt();
 
     int[] numbers = new int[numinput];
     for (int l = 0; l<numinput; l++){
-      System.out.print("Enter another number: ");
-      Scanner in2 = new Scanner(System.in);
-      int currentnum = in2.nextInt();
+      //System.out.print("Enter another number: ");
+      //Scanner in = new Scanner(System.in);
+      int currentnum = in.nextInt();
       numbers[l] = currentnum;
     }
 
